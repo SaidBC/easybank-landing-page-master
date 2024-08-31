@@ -38,7 +38,6 @@ body {
     background-color: var(--very-light-gray);
     height: 100svh;
     font-family: "Public Sans", sans-serif;
-    overflow-x: hidden;
     color: var(--dark-blue);
 }
 
@@ -199,6 +198,9 @@ header .request-invite {
 }
 
 /* END HEADER & START ON MAIN */
+main {
+    overflow: hidden;
+}
 
 /* FIRST SECTION */
 
